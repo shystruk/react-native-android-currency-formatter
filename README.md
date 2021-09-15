@@ -1,4 +1,4 @@
-# React Native Android Currency Formatter [![Twitter URL](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/intent/tweet?hashtags=javascript&original_referer=https%3A%2F%2Fpublish.twitter.com%2F&ref_src=twsrc%5Etfw&text=Validation%20of%20CSV%20file%20against%20user%20defined%20schema%20(returns%20back%20object%20with%20data%20and%20invalid%20messages)&tw_p=tweetbutton&url=https%3A%2F%2Fwww.npmjs.com%2Fpackage%2Fcsv-file-validator&via=shystrukk) #
+# React Native Android Currency Formatter [![Twitter URL](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/intent/tweet?hashtags=reactnative%2Cjavascript&original_referer=https%3A%2F%2Fpublish.twitter.com%2F&ref_src=twsrc%5Etfw%7Ctwcamp%5Ebuttonembed%7Ctwterm%5Eshare%7Ctwgr%5E&text=React%20Native%20Android%20Currency%20Formatter.%20Native%20Module%20for%20a%20currency%20format%20with%20specified%20FORMAT%20locale.&url=https%3A%2F%2Fwww.npmjs.com%2Fpackage%2Freact-native-android-currency-formatter&via=shystrukk) #
 [![MIT Licence](https://badges.frapsoft.com/os/mit/mit.svg?v=103)](https://opensource.org/licenses/mit-license.php)
 [![npm version](https://badge.fury.io/js/react-native-android-currency-formatter.svg)](https://badge.fury.io/js/react-native-android-currency-formatter)
 
@@ -26,7 +26,7 @@ yarn add react-native-android-currency-formatter --save
 import AndroidCurrencyFormatter from 'react-native-android-currency-formatter';
 
 // Synchronous Method
-AndroidCurrencyFormatter.numberFormat(30000, 'USD', 'en', 'US') // $30,000.00
+AndroidCurrencyFormatter.numberFormat(30000, 'USD', 'en', 'US'); // $30,000.00
 
 // Asynchronous Method
 AndroidCurrencyFormatter
