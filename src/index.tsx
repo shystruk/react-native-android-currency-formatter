@@ -3,10 +3,10 @@ import { NativeModules } from 'react-native';
 type AndroidCurrencyFormatterType = {
 	numberFormat(
 		amount: number, currencyCode: string, language: string, country: string
-	): number,
+	): string,
 	numberFormatAsync(
 		amount: number, currencyCode: string, language: string, country: string
-	): Promise<number>,
+	): Promise<string>,
 };
 
 const { AndroidCurrencyFormatter } = NativeModules;

@@ -4,7 +4,7 @@ import AndroidCurrencyFormatter from 'react-native-android-currency-formatter';
 import { useEffect, useState } from 'react';
 
 export default function App() {
-	const [USD, setUSD] = useState<number>(0);
+	const [USD, setUSD] = useState<string>('');
 
 	useEffect(() => {
 		AndroidCurrencyFormatter
